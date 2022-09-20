@@ -3,7 +3,7 @@
   <head>
 
     <title>َLogin Form</title>
-    <link rel="stylesheet" href="style.css">
+   
   </head>
   <body>
         <center><h2 style="background-color:#0000"> RGM COLLEGE</h2></center>
@@ -23,7 +23,7 @@
 
   </body>
   <details>
-    <summary style="color:white">CREATED BY</summary>
+    <summary style="color:red">CREATED BY</summary>
     SUDHEER REDDY
   </details>
 </html>
