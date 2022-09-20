@@ -1,29 +1,26 @@
-<!DOCTYPE html>
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    div {
+      color: white;
+      font: 18px serif;
+      height: 100%;
+      overflow: auto;
+    }
+  </style>
 
-  <head>
+  <polygon points="5,5 195,10 185,185 10,195" />
 
-    <title>َLogin Form</title>
-   
-  </head>
-  <body>
-        <center><h2 style="background-color:#0000"> RGM COLLEGE</h2></center>
-      </body>
-  <body>
-
-    <img src="E:/pexels-pixabay-531880 (1).jpg" alt="">
-
-<form class="box" >
-  <h1>LOGIN</h1>
-  <input type="text" name="" placeholder="Username">
-  <input type="password" name="" placeholder="Password">
-  <input type="submit" name="" value="Login">
-  <input type="button" name="" value="Register"
-</form>
-
-
-  </body>
-  <details>
-    <summary style="color:red">CREATED BY</summary>
-    SUDHEER REDDY
-  </details>
-</html>
+  <!-- Common use case: embed HTML text into SVG -->
+  <foreignObject x="20" y="20" width="160" height="160">
+    <!--
+      In the context of SVG embedded in an HTML document, the XHTML
+      namespace could be omitted, but it is mandatory in the
+      context of an SVG document
+    -->
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis mollis
+      mi ut ultricies. Nullam magna ipsum, porta vel dui convallis, rutrum
+      imperdiet eros. Aliquam erat volutpat.
+    </div>
+  </foreignObject>
+</svg>
